@@ -27,6 +27,3 @@ public class ReverseOnlyLetters {
         System.out.print("Reversed String is : " + input);
     }
 }
-//(x$l$`ek]$intly$l$ysbzatm
-//(m$t$`az]$bsytl$y$lnikelx
-//(m$t$`az]$bsyly$l$tnikelx
