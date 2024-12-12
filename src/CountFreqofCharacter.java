@@ -6,10 +6,10 @@ public class CountFreqofCharacter {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         input  = input.toLowerCase();
-        char[] inputArray = input.toCharArray();
+//        char[] inputArray = input.toCharArray();
 
         HashMap<Character,Integer> frequencyMap = new HashMap<>();
-        for(char val: inputArray){
+        for(char val: input.toCharArray()){
             frequencyMap.put(val,frequencyMap.getOrDefault(val,0)+1);
         }
 
