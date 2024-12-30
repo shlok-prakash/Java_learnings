@@ -23,7 +23,7 @@ public class ReverseOnlyLetters {
                 left++; right--;
             }
         }
-        input  = String.valueOf(inputArray);
-        System.out.print("Reversed String is : " + input);
+//        input  = String.valueOf(inputArray);
+        System.out.print("Reversed String is : " + new String(inputArray));
     }
 }
