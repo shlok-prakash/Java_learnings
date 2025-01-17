@@ -1,5 +1,3 @@
-package Notes_For_Java;
-
 import java.util.*;
 public class Pattern {
     public static void pattern1(int numberOfRows){ //Hollow square
