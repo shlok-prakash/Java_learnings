@@ -120,11 +120,20 @@ public class Pattern {
         }
     }
 
+    public static void pattern8(int numberOfRows){
+        int val=1;
+        for(int i=0;  i<numberOfRows; i++){
+            for(int j=0; i>=j; j++){
+                System.out.print(val++ + " ");
+            }
+            System.out.println();
+        }
+    }
 
     public static void main(String[] args) {
         System.out.print("Enter the Number of Lines");
         Scanner sc = new Scanner(System.in);
         int numberOfRows = sc.nextInt();
-        pattern7(numberOfRows);
+        pattern8(numberOfRows);
     }
 }
